@@ -10,16 +10,18 @@ import requests
 client = discord.Client()
 from time import sleep
 import os
-
+import json
 from dotenv import load_dotenv
 cls = lambda: os.system('cls')
 cls()
 
 init()
 
+with open('config.json') as config_file: data = json.load(config_file)
+
 # Load .env
 load_dotenv()
-token = os.getenv('TOKEN')
+token = data['token']
 
 
 
@@ -37,7 +39,7 @@ banner = (f"""{Fore.RED}
                                 ╚██████╗███████╗╚██████╔╝██║ ╚████║███████╗██║  ██║
                                 ╚═════╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
                         {Style.RESET_ALL}
-                                            {Fore.MAGENTA}Developed by: Noritem#6666{Style.RESET_ALL}
+                                            {Fore.MAGENTA}Developed by: ! Smash#1337{Style.RESET_ALL}
         """) 
 
 
@@ -84,7 +86,7 @@ def mainanswer():
         mainanswer()
 
 def casa():
-    webbrowser.open_new('https://discord.gg/adopt')
+    webbrowser.open_new('https://discord.gg/toolstown')
     cls()
     mainanswer()
 

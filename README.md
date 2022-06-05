@@ -2,7 +2,7 @@
   <b>🦊 Follow me here 🦊</b><br>  
   <a href="https://discord.gg/toolstown">Discord</a> |
   <a href="https://github.com/noritem-dev">Github</a><br><br>
-  <img src="https://cdn.discordapp.com/attachments/971147952464752643/983071325591572510/unknown.png" style="width: 60%">
+  <img src="https://cdn.discordapp.com/attachments/971147952464752643/983091260648718346/Screenshot_2022-06-05_213331.png" style="width: 60%">
 </p>
 
 ##  
