@@ -11,7 +11,6 @@ client = discord.Client()
 from time import sleep
 import os
 import json
-from dotenv import load_dotenv
 cls = lambda: os.system('cls')
 cls()
 
