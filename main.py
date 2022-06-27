@@ -19,7 +19,7 @@ init()
 with open('config.json') as config_file: data = json.load(config_file)
 
 # Load .env
-load_dotenv()
+
 token = data['token']
 
 
